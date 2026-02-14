@@ -1,11 +1,12 @@
 // import 
 
-object Geeks { 
+object Main { 
 
     def main(args: Array[String]) 
     { 
-        val environment: String = args._0
-        val file: String = args._1
+        // Name input arguments
+        val environment: String = args(0)
+        val file: String = args(1)
 
         println(environment) 
     } 
